@@ -1,0 +1,40 @@
+/**
+ * App Styles
+ */
+td,
+th {
+    padding: 8px 5px;
+    vertical-align: top;
+}
+img {
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+.outer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+.outer:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.outer .inner {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 5px solid;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+}
